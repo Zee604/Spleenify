@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Spleenify',
+        debugShowCheckedModeBanner: false,
         theme: AppThemes().lightTheme,
         darkTheme: AppThemes().darkTheme,
         home: const SplashScreen(),

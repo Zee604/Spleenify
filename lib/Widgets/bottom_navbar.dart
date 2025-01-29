@@ -13,7 +13,7 @@ class BottomNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: context.screenWidth,
-      height: Platform.isAndroid ? 70 : 100,
+      height: Platform.isAndroid ? 80 : 100,
       decoration: BoxDecoration(
           color: Colors.black,
           borderRadius: BorderRadius.vertical(top: Radius.circular(6))

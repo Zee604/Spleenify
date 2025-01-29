@@ -101,6 +101,7 @@ class _CategoriesPageState extends State<CategoriesPage> {
                         Positioned(
                           bottom: 40.0,
                           left: 12,
+                          right: 12,
                           child: Text(
                               model.name!,
                               maxLines: 1,
